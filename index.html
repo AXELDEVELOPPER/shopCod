@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopCod</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script
+      src="https://kit.fontawesome.com/yourkitcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header y navegación -->
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <a href="Index.html">
+          <img src="img/logo.png" width="80px" alt="ShopCod Logo" />
+          <span>ShopCod</span>
+        </a>
+      </div>
+
+      <!-- Controles móviles: menú hamburguesa + búsqueda + carrito -->
+      <div class="mobile-controls">
+        <button class="menu-toggle" id="menu-toggle">
+          <img src="img/menu.png" alt="Menú" width="30" />
+        </button>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar..." />
+          <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <a href="carrito.html" class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+      </div>
+
+      <!-- Menú para escritorio -->
+      <nav class="nav" id="nav-menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <!-- Barra de búsqueda y carrito para escritorio -->
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar..." />
+          <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <a href="carrito.html" class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Carrusel -->
+    <section class="carousel">
+      <img src="img/1.png" class="active" alt="Banner 1" />
+      <img src="img/2.png" alt="Banner 2" />
+      <img src="img/3.png" alt="Banner 3" />
+    </section>
+
+    <!-- Sección de productos en oferta -->
+    <section class="ofertas">
+      <h2>🔥 Productos en Oferta</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="img/acer.png" alt="Laptop 1" />
+          <h3>Laptop Acer Aspire</h3>
+          <p class="precio">
+            Antes: <del>S/ 2500</del> | Ahora: <span>S/ 2199</span>
+          </p>
+          <button>Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="img/samsung.png" alt="Monitor 1" />
+          <h3>Monitor Samsung 24"</h3>
+          <p class="precio">
+            Antes: <del>S/ 699</del> | Ahora: <span>S/ 589</span>
+          </p>
+          <button>Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="img/logic.png" alt="Mouse 1" />
+          <h3>Mouse Logitech G203</h3>
+          <p class="precio">
+            Antes: <del>S/ 139</del> | Ahora: <span>S/ 109</span>
+          </p>
+          <button>Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="img/teclado.png" alt="Teclado Mecánico" />
+          <h3>Teclado Redragon Kumara</h3>
+          <p class="precio">
+            Antes: <del>S/ 189</del> | Ahora: <span>S/ 139</span>
+          </p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nuestros Servicios -->
+
+    <section class="nuestros-servicios">
+      <h2>Nuestros Servicios</h2>
+      <p class="subtitulo-servicios">
+        En ShopCod nos esforzamos por ofrecerte una experiencia de compra
+        completa, segura y eficiente.
+      </p>
+      <div class="contenedor-servicios">
+        <div class="servicio">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/408/408187.png"
+            alt="Envío rápido"
+          />
+          <h3>Envío Rápido</h3>
+          <p>
+            Recibe tus productos en tiempo récord con nuestra logística
+            eficiente a nivel nacional.
+          </p>
+        </div>
+        <div class="servicio">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+            alt="Soporte técnico"
+          />
+          <h3>Soporte Técnico</h3>
+          <p>
+            Asistencia especializada antes, durante y después de tu compra, para
+            garantizar tu satisfacción.
+          </p>
+        </div>
+        <div class="servicio">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+            alt="Garantía"
+          />
+          <h3>Garantía de Producto</h3>
+          <p>
+            Todos nuestros productos cuentan con garantía para brindarte
+            seguridad y respaldo.
+          </p>
+        </div>
+        <div class="servicio">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/633/633611.png"
+            alt="Pagos seguros"
+          />
+          <h3>Pagos Seguros</h3>
+          <p>
+            Múltiples métodos de pago con plataformas cifradas para proteger tu
+            información.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto tienda virtual -->
+    <section class="contacto" id="contacto">
+      <h2><i class="fas fa-headset"></i> ¿Necesitas ayuda?</h2>
+      <p>
+        Somos una tienda 100% virtual. Escríbenos por WhatsApp o por correo.
+        Estamos disponibles todos los días.
+      </p>
+      <a href="https://wa.me/51921941306" target="_blank"
+        ><i class="fab fa-whatsapp"></i> Atención por WhatsApp</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="ShopCod Logo" width="60" />
+          <h3>ShopCop</h3>
+          <p>Tu tienda virtual de tecnología confiable en Perú.</p>
+          <p><i class="fas fa-map-marker-alt"></i> Atención 100% online</p>
+          <p><i class="fas fa-envelope"></i> contacto@shopcop.com</p>
+          <p><i class="fas fa-phone-alt"></i> +51 921 941 306</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Información</h4>
+          <ul>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Envíos y Entregas</a></li>
+            <li><a href="#">Política de Devoluciones</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 ShopCop. Todos los derechos reservados. | Tienda virtual
+          operando en todo el Perú 🇵🇪
+        </p>
+      </div>
+    </footer>
+
+    <script src="Javascript/java.js"></script>
+ <!-- Chatbot IA REAL Mejorado -->
+<div id="chatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <button id="openChat" style="background-color: #4CAF50; color: white; border: none; padding: 12px 20px; border-radius: 50px; cursor: pointer;">
+    🤖 ¿Ayuda?
+  </button>
+  <div id="chatWindow" style="display: none; width: 300px; height: 400px; background: white; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; margin-top: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div id="chatMessages" style="height: 340px; overflow-y: auto; padding: 10px;"></div>
+    <input id="chatInput" type="text" placeholder="Escribe tu pregunta..." style="width: 100%; border: none; padding: 10px;" />
+  </div>
+</div>
+
+<script>
+const openChat = document.getElementById('openChat');
+const chatWindow = document.getElementById('chatWindow');
+const chatMessages = document.getElementById('chatMessages');
+const chatInput = document.getElementById('chatInput');
+
+openChat.addEventListener('click', () => {
+  chatWindow.style.display = chatWindow.style.display === 'none' ? 'block' : 'none';
+});
+
+chatInput.addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    const userMessage = chatInput.value;
+    addMessage('Tú', userMessage);
+    detectarAccionesEspeciales(userMessage); // 👉 Detectar si debe redirigir
+    chatInput.value = '';
+    sendToOpenAI(userMessage);
+  }
+});
+
+function addMessage(sender, text) {
+  const message = document.createElement('div');
+  message.innerHTML = `<strong>${sender}:</strong> ${text}`;
+  chatMessages.appendChild(message);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+// 🚀 Nuevo: Detectar intenciones y redirigir
+function detectarAccionesEspeciales(mensajeUsuario) {
+  const mensaje = mensajeUsuario.toLowerCase();
+
+  if (mensaje.includes('oferta') || mensaje.includes('descuento')) {
+    window.location.href = '#ofertas'; // Lleva a la sección ofertas
+  } else if (mensaje.includes('carrito') || mensaje.includes('comprar')) {
+    window.location.href = 'carrito.html'; // Lleva al carrito
+  } else if (mensaje.includes('contacto') || mensaje.includes('ayuda') || mensaje.includes('soporte')) {
+    window.location.href = '#contacto'; // Sección contacto
+  } else if (mensaje.includes('inicio') || mensaje.includes('home')) {
+    window.location.href = 'index.html'; // Página de inicio
+  }
+}
+
+// 🌐 Comunicación con tu backend seguro
+async function sendToOpenAI(prompt) {
+  addMessage('IA', 'Escribiendo... ✍️');
+
+  try {
+    const response = await fetch('http://localhost:3000/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt })
+    });
+
+    const data = await response.json();
+    const aiMessage = data.message;
+    addMessage('IA', aiMessage);
+  } catch (error) {
+    console.error(error);
+    addMessage('kenny', 'CONTACTANOS POR LAS REDES PARA MAS INFORMACION. 😔');
+  }
+}
+</script>
+    </body>
+</html>
